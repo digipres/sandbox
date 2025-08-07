@@ -11,7 +11,7 @@ It works because it takes advantage of [Binder](https://jupyter.org/binder), whi
 
 Alternatively, you can run the Sandbox on GitHub:
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=master&repo=192014359)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/digipres/sandbox)
 
 If you want some help to get started, you can find an introduction in the [DigiPres Workbench](https://github.com/digipres/workbench).
 
