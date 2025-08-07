@@ -9,6 +9,10 @@ It works because it takes advantage of [Binder](https://jupyter.org/binder), whi
 
 **NOTE** please be patient, as it might take a minute or two to before things get started. In particular, the first build of a new version can be very slow and might take a couple of tries. Note also that this is an an ephemeral service and your session will be shut down after a while, especially if it's not doing anything.
 
+Alternatively, you can run the Sandbox on GitHub:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=master&repo=192014359)
+
 If you want some help to get started, you can find an introduction in the [DigiPres Workbench](https://github.com/digipres/workbench).
 
 ## Sample Files
