@@ -14,8 +14,8 @@
     // Configure properties specific to Codespaces.
     "codespaces": {
       "openFiles": [
-        "README.md",
-        "Dockerfile"
+        "welcome.ipynb",
+        "README.md"
       ]
 	  }
   }
