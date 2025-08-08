@@ -7,11 +7,11 @@ It works because it takes advantage of [Binder](https://jupyter.org/binder), whi
 
 <a href="https://mybinder.org/v2/gh/digipres/sandbox/master" target="_blank" rel="noopener"><img src="https://mybinder.org/badge_logo.svg" style="max-width: 100%;"></a>
 
-Alternatively, you can run the Sandbox on GitHub:
+**NOTE** please be patient, as it might take a minute or two to before things get started. In particular, the first build of a new version can be very slow and might take a couple of tries. Note also that Binder is an an ephemeral service and your session will be shut down after a while, especially if it's not doing anything. 
+
+Alternatively, you can run the Sandbox on [GitHub Codespaces](https://github.com/features/codespaces), which is a metered service but has a free quota for personal accounts:
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/digipres/sandbox)
-
-**NOTE** please be patient, as it might take a minute or two to before things get started. In particular, the first build of a new version can be very slow and might take a couple of tries. Note also that Binder is an an ephemeral service and your session will be shut down after a while, especially if it's not doing anything. [GitHub Codespaces](https://github.com/features/codespaces) is a metered service has a free quota for personal accounts.
 
 If you want some help to get started, you can find an introduction in the [DigiPres Workbench](https://github.com/digipres/workbench).
 
