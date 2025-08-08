@@ -1,9 +1,13 @@
 DigiPres Sandbox
 =================
 
-This project makes it possible to play with the tools supported by the [DigiPres Toolbox](https://github.com/digipres/toolbox), running it in the cloud so you can access it via your browser!
+This project makes it possible to play with the tools supported by the [DigiPres Toolbox](https://github.com/digipres/toolbox), running it in the cloud so you can access it via your browser! 
 
-It works because it takes advantage of [Binder](https://jupyter.org/binder), which was built to support reproducibility in scientific research.  By clicking the button below, you can fire up a remote Linux session with a [Jupyter](https://jupyter.org/) interface, and start experimenting...
+There's a more detailed [introduction to the Sandbox](https://www.digipres.org/workbench/tools/sandbox) on the [DigiPres Workbench](https://github.com/digipres/workbench).
+
+## Starting up your DigiPres Sandbox
+
+The Sandbox works because it takes advantage of [Binder](https://jupyter.org/binder), which was built to support reproducibility in scientific research.  By clicking the button below, you can fire up a remote Linux session with a [Jupyter](https://jupyter.org/) interface, and start experimenting...
 
 <a href="https://mybinder.org/v2/gh/digipres/sandbox/master" target="_blank" rel="noopener"><img src="https://mybinder.org/badge_logo.svg" style="max-width: 100%;"></a>
 
@@ -13,7 +17,7 @@ Alternatively, you can run the Sandbox on [GitHub Codespaces](https://github.com
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/digipres/sandbox)
 
-If you want some help to get started, you can find an introduction in the [DigiPres Workbench](https://github.com/digipres/workbench).
+Once the Codespace is running, you can get started by [clicking here to open the Welcome notebook](./welcome.ipynb).
 
 ## Sample Files
 
