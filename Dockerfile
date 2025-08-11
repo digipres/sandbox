@@ -1,6 +1,10 @@
 # Start with a custom image with pre-installed tools:
 FROM ghcr.io/digipres/toolbox:master
 
+# Add a browser for desktop sessions:
+RUN apt-get update && export DEBIAN_FRONTEND=noninteractive && apt-get install -y firefox-esr && \
+    apt-get clean && rm -rf /var/lib/apt/lists/*
+
 # Add the Jupyter things we need
 RUN pip install --no-cache-dir jupyterlab notebook pandas altair requests bash_kernel && python -m bash_kernel.install
 
