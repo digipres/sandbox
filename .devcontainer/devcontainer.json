@@ -12,6 +12,10 @@
   "containerEnv": {
     "VNC_RESOLUTION": "1280x1024x16"
   },
+  // For FUSE:
+  "capAdd": ["SYS_ADMIN"],
+  "privileged": true,
+  // END FUSE
   "customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {
