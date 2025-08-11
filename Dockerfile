@@ -26,7 +26,8 @@ RUN groupadd --gid $USER_GID $USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME
 
 # Set the working directory
-WORKDIR /home/${NB_USER}
+ARG HOME=/home/${NB_USER}
+WORKDIR ${HOME}
 
 # Make sure the contents of our repo are in ${HOME}
 COPY welcome.ipynb README.md ./
