@@ -12,8 +12,6 @@
   "containerEnv": {
     "VNC_RESOLUTION": "1280x1024x16"
   },
-  "remoteUser": "1000",
-  "containerUser": "root",
   "customizations": {
 		// Configure properties specific to VS Code.
 		"vscode": {
