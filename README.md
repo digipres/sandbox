@@ -17,7 +17,7 @@ Alternatively, you can run the Sandbox on [GitHub Codespaces](https://github.com
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/digipres/sandbox)
 
-Once the Codespace is running, you can get started by [clicking here to open the Welcome notebook](./welcome.ipynb).
+Once the Codespace is running, you will see this page inside the code editor. You can then get started by [clicking here to open the Welcome notebook](./welcome.ipynb).
 
 ## Sample Files
 

@@ -23,7 +23,7 @@
 			"settings": {
         "workbench.colorTheme": "Default Light+"
       },
-	  "extensions": [ "vscodevim.vim" ]
+	  "extensions": [ "vscodevim.vim", "ms-toolsai.jupyter", "ms-python.python" ]
 	}
   }
 }

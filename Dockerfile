@@ -6,7 +6,7 @@ RUN apt-get update && export DEBIAN_FRONTEND=noninteractive && apt-get install -
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Add the Jupyter things we need
-RUN pip install --no-cache-dir jupyterlab notebook pandas altair requests bash_kernel && python -m bash_kernel.install
+RUN pip install --no-cache-dir jupyterlab notebook pandas altair requests ipykernel bash_kernel warcio && python -m bash_kernel.install
 
 # Switch off announcements pop-up
 RUN jupyter labextension disable "@jupyterlab/apputils-extension:announcements"
