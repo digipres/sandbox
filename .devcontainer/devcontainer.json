@@ -23,7 +23,12 @@
 			"settings": {
         "workbench.colorTheme": "Default Light+"
       },
-	  "extensions": [ "vscodevim.vim", "ms-toolsai.jupyter", "ms-python.python" ]
+	  "extensions": [ 
+      "vscodevim.vim", 
+      "ms-toolsai.jupyter", 
+      "ms-python.python",
+      "donjayamanne.vscode-default-python-kernel"
+    ]
 	}
   }
 }
