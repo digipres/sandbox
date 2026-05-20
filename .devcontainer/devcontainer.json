@@ -4,16 +4,8 @@
     "ghcr.io/devcontainers/features/desktop-lite:1": {}
   },
   "forwardPorts": [6080, 5901],
-  "portsAttributes": {
-    "6080": {
-      "label": "Desktop Access",
-      "onAutoForward": "notify"
-    },
-	  "5901": {
-      "label": "VNC Server Port",
-      "onAutoForward": "silent"
-    }
-  },
+  "portsAttributes": {"6080": {"label": "Desktop Access"}},
+  "otherPortsAttributes": {"onAutoForward": "silent"},
   "containerEnv": {
     "VNC_RESOLUTION": "1280x1024x16"
   },
